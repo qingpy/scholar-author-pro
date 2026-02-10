@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Scholar Author Pro",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://scholar.google.com/citations*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "scholar.png",
+    "48": "scholar.png",
+    "128": "scholar.png"
+  },
+  "action": {
+    "default_icon": "scholar.png"
+  }
+}
