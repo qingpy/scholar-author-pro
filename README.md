@@ -13,17 +13,17 @@
 *   **识别一作与尾作**：自动标记第一作者和末位作者的论文，并高亮对应行。
 *   **论文筛选**：支持筛选出仅由该学者担任第一作者或通讯作者的论文。
 
-> [!NOTE]
+> [!Note]
 > 若作者列表因过长被截断（显示为`...`）且该学者姓名被隐藏，插件会高亮省略号并将其视为尾作。
 
 ### 效果展示
 ![插件效果展示](demo.jpeg)
 
 ### 安装步骤
-1.  下载本仓库文件。
-2.  浏览器访问 `chrome://extensions`（Edge浏览器请访问 `edge://extensions`）。
-3.  开启右上角 **开发者模式**。
-4.  点击 **加载已解压的扩展程序**，选择插件文件夹即可。
+1. 从 [Releases](https://github.com/qingpy/scholar-author-pro/releases/latest) 下载并解压最新版本。
+2. 浏览器访问 `chrome://extensions` (或 `edge://extensions`)。
+3. 开启 **开发者模式**。
+4. 点击 **加载已解压的扩展程序**，选择解压后的文件夹。
 
 ### 使用方法
 1.  访问任意谷歌学术个人主页。
@@ -47,10 +47,10 @@ Icons used in this extension are created by Flat Icons from [Flaticon](https://w
 [Demo](#效果展示)
 
 ### Installation
-1. Download this repository.
+1. Download and extract the latest version from [Releases](https://github.com/qingpy/scholar-author-pro/releases/latest).
 2. Go to `chrome://extensions` (or `edge://extensions`).
 3. Enable **Developer mode**.
-4. Click **Load unpacked** and select the extension folder.
+4. Click **Load unpacked** and select the extracted folder.
 
 ### How to Use
 1. Visit a Google Scholar profile page.
@@ -74,10 +74,10 @@ Google Scholarのプロフィールページで、プロフィール所有者の
 [デモ](#效果展示)
 
 ### インストール方法
-1. 本リポジトリをダウンロードします。
+1. [Releases](https://github.com/qingpy/scholar-author-pro/releases/latest) から最新版をダウンロードして解凍します。
 2. `chrome://extensions`（または `edge://extensions`）を開きます。
 3. **デベロッパー モード**を有効にします。
-4. 「**パッケージ化されていない拡張機能を読み込む**」をクリックし、本拡張機能のフォルダを選択します。
+4. 「**パッケージ化されていない拡張機能を読み込む**」を選択し、解凍したフォルダを選択します。
 
 ### 使い方
 1. Google Scholarのプロフィールページにアクセスします。
